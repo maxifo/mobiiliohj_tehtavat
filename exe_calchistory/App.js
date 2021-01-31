@@ -25,7 +25,7 @@ export default function App() {
   return (
 
     <View style={styles.container}>
-      <Text>{result}</Text>
+      <Text>Result: {result}</Text>
       <TextInput keyboardType={'number-pad'}
         style={{ width: 200, borderColor: 'gray', borderWidth: 1 }}
         onChangeText={num => setNum(num)}

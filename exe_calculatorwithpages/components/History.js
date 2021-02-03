@@ -9,6 +9,7 @@ function History({ route }) {
         <View style={{ flexDirection: 'row' }}>
             <FlatList
                 data={hist}
+                ListHeaderComponent={<Text>History</Text>}
                 renderItem={({ item }) =>
                     <Text>{item.key}</Text>}
             />

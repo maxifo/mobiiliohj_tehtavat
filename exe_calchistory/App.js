@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, Button, Alert, TextInput, FlatList } from 'react-native';
 
 export default function App() {
-  const [num, setNum] = useState('');
-  const [num2, setNum2] = useState('');
+  const [num, setNum] = useState(0);
+  const [num2, setNum2] = useState(0);
   const [result, setResult] = useState();
   const [history, setHistory] = useState([]);
 

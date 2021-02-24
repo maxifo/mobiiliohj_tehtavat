@@ -33,6 +33,7 @@ export default function App() {
         <Text style={{ fontStyle: 'italic' }} >Shopping List</Text>
         <FlatList
           data={shoppingList}
+          keyExtractor={item => item.id}
           renderItem={({ item }) =>
             <Text>{item.key}</Text>}
         />

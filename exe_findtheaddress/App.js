@@ -28,7 +28,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <MapView
-        style={{ flex: 1 }}
+        style={{ flex: 1, width: '100%', height: '100%' }}
         Region={{
           latitude: lat,
           longitude: long,
